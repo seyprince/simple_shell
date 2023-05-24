@@ -2,11 +2,11 @@
 The shell is programmed to take commands which are entered on the key board through the terminal and pass them on to the operating system to be worked on.
 The simple shell is created using C language programme and represents one very simple linux version. It is a project which forms part of the low_level programming phase. The -simple shell is programmed to equally perform tasks and functionalities that a real shell does.
 
-# List of allowed functions and system calls for this simple shell project
-# access (man 2 access)
-# chdir (man 2 chdir)
-# close (man 2 close)
-#closedir (man 3 closedir)
+## List of allowed functions and system calls for this simple shell project
+-access (man 2 access)
+-chdir (man 2 chdir)
+-close (man 2 close)
+-closedir (man 3 closedir)
 -execve (man 2 execve)
 -exit (man 3 exit)
 -exit (man 2 _exit)
