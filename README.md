@@ -4,9 +4,9 @@ The simple shell is created using C language programme and represents one very s
 
 # List of allowed functions and system calls for this simple shell project
 # access (man 2 access)
--chdir (man 2 chdir)
--close (man 2 close)
--closedir (man 3 closedir)
+# chdir (man 2 chdir)
+# close (man 2 close)
+#closedir (man 3 closedir)
 -execve (man 2 execve)
 -exit (man 3 exit)
 -exit (man 2 _exit)
