@@ -8,6 +8,9 @@ int _atoi(char *s)
 {
 	int i, integer, sign = 1;
 
+	if (s == NULL)
+		return (0);
+
 	i = 0;
 	integer = 0;
 	while (!((s[i] >= '0') && (s[i] <= '9')) && (s[i] != '\0'))
